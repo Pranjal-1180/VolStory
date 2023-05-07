@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.6vh;
+  background: #000;
+  color: #fff;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 50%;
+  padding: 10px;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: calc(100vh - 9.6vh);
+  width: 100px;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bars {
+  font-size: 25px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 10px;
+  gap: 25px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.bg {
+  background-image: url(/vol.jpg);
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  margin-left: 170px;
+  margin-top: 40px;
+  align-items: center;
+  left: 50%;
+}
+
+.text {
+  color: rgb(108, 101, 101);
+  text-align: justify;
+  line-height: 2;
+}
+
+.text1 {
+  color: #fff;
+  text-align: left;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.wrapper {
+  padding-left: 300px;
+}
+
+/* Top Navigation Bar */
+
+.topbar {
+  background-color: #333;
+  color: #fff;
+  padding: 0;
+}
+
+.topbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar li {
+  list-style: none;
+}
+
+.topbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* New Navigation Bar */
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.nav li:hover {
+  background-color: #777;
+}
